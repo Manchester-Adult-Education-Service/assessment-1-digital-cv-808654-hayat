@@ -1,0 +1,32 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    color:black;
+
+}
+h1 {
+    color:white;
+}
+
+h2 {
+    color:rgb(232, 170, 145)
+}
+
+header {
+    background-color: rgb(238, 187, 167);
+    color:white;
+    margin: 16px;
+    padding: 16px;
+    border: 2px solid rgb(234, 141, 98);
+}
+
+main {
+    background-color: white;
+    margin: 16px;
+    padding: 16px;
+}
+
+img {
+    width: 150px;
+    border: 2px solid rgb(234, 141, 98);
+}
