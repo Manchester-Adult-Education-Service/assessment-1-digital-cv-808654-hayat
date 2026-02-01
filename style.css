@@ -2,6 +2,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: whitesmoke;
     color:black;
+    line-height: 1.5;
 
 }
 h1 {
@@ -15,9 +16,17 @@ h2 {
 header {
     background-color: rgb(238, 187, 167);
     color:white;
-    margin: 16px;
-    padding: 16px;
-    border: 2px solid rgb(234, 141, 98);
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+footer {
+    background-color: rgb(238, 187, 167);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    
 }
 
 main {
@@ -29,4 +38,18 @@ main {
 img {
     width: 150px;
     border: 2px solid rgb(234, 141, 98);
+}
+
+.highlight {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+a {
+    color:brown;
+}
+
+ul, ol {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
