@@ -1,61 +1,122 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: whitesmoke;
-    color:black;
-    line-height: 1.5;
-
+    color: black;
+    line-height: 2;
 }
+
 h1 {
-    color:white;
+    color: white;
 }
 
 h2 {
-    color:rgb(232, 170, 145)
+    color: #2A9D8F;
+
 }
 
 header {
-    background-color: rgb(238, 187, 167);
-    color:white;
+    background-color: #2A9D8F;
+    color: white;
     margin: 5px;
     padding: 5px;
-    
+    display: flex;
+    justify-content: center
+}
+
+.photo {
+    display: flex;
+    margin-right: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 500%;
+    border: 5px solid white;
+}
+
+.name {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.left {
+    flex-direction: column;
+    flex: 1;
+    padding-right: 100px;
+}
+
+
+.right {
+    flex-direction: column;
+    flex: 1;
+    align-content: space-between;
+}
+
+.left-title {
+    background-color: #f5ebe0;
+    color: #2A9D8F;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.work {
+    background-color: #ede0d4;
+    ;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+
+.education {
+    background-color: #f5ebe0;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+
+.skills {
+    background-color: #ede0d4;
+    ;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 5px;
 }
 
 footer {
-    background-color: rgb(238, 187, 167);
+    background-color: #2A9D8F;
     color: white;
     margin: 5px;
     padding: 5px;
     text-align: center;
 }
 
+
 main {
     background-color: white;
-    margin: 16px;
+    margin: 5px;
     padding: 16px;
+    display: flex;
+
 }
 
-img {
-    width: 150px;
-    border: 2px solid rgb(234, 141, 98);
-}
 
-/*.highlight {
-    border: 2px solid white;
-    padding: 10px;
-}*/
-.highlight {
-    border:2px solid peachpuff;
+/* .highlight {
+    border: 2px solid peachpuff;
     padding: 10px;
     background-color: rgb(251, 251, 243);
-    color:rgb(194, 83, 83)
-}
+    color: rgb(194, 83, 83)
+} */
 
 a {
-    color:rgb(194, 83, 83);
+    color: rgb(194, 83, 83);
 }
 
-ul, ol {
+ul,
+ol {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -64,3 +125,17 @@ hr {
     background-color: rgb(194, 83, 83);
     height: 1px;
 }
+
+/* .contact-bar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+} */
+
+/* .hero-container {
+    display: flex;
+    align-items: center;
+} */
