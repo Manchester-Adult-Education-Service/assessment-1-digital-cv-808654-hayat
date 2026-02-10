@@ -20,7 +20,9 @@ header {
     margin: 5px;
     padding: 5px;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
 .photo {
@@ -62,7 +64,7 @@ header {
 }
 
 .work {
-    background-color: #ede0d4;
+    background-color: #f5ebe0;
     ;
     border-radius: 10px;
     padding: 20px;
@@ -79,7 +81,7 @@ header {
 
 
 .skills {
-    background-color: #ede0d4;
+    background-color: #f5ebe0;
     ;
     border-radius: 10px;
     padding: 20px;
@@ -112,7 +114,17 @@ main {
 } */
 
 a {
-    color: rgb(194, 83, 83);
+    color: #2A9D8F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c1121f;
+    transform: scale(5);
+    text-decoration: underline;
+    text-transform:uppercase;
+    transition: all 1s ease;
+    
 }
 
 ul,
@@ -121,10 +133,6 @@ ol {
     margin-bottom: 10px;
 }
 
-hr {
-    background-color: rgb(194, 83, 83);
-    height: 1px;
-}
 
 /* .contact-bar {
     display: flex;
@@ -139,3 +147,12 @@ hr {
     display: flex;
     align-items: center;
 } */
+
+.list {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex:1;
+    
+}
