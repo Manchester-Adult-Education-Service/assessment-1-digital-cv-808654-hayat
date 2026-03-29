@@ -154,5 +154,25 @@ ol {
     flex-wrap: wrap;
     justify-content: space-around;
     flex:1;
-    
+}
+
+#quote-container, #advice-container {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border:1px solid #0504;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+#quote-text, #advice-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #374151;
+}
+
+#quote-btn, #advice-btn {
+    margin-top: 10px;
+    cursor: pointer;
 }
